@@ -1,0 +1,95 @@
+@media all {
+
+  header, footer, nav, aside, article, section {display: block;}
+  body {margin: 0; padding: 0;}
+  #masthead h1 {margin: 0; font: 700 34px 'Noto Serif', serif;}
+
+}
+
+
+@media screen {
+
+  body {font: 400 100%/1.4 'Roboto', sans-serif;}
+  h2 {font: 400 180%/1.4 'Roboto', sans-serif;}
+  h3 {font: 700 140%/1.4 'Roboto', sans-serif;}
+  footer {font-size: 90%; text-align: center; background: #2a2a2a; color: #fff; padding: 15px 0;} 
+
+    
+  /* masthead and top of content area */
+  #masthead {padding: 30px 0; background: #2a2a2a; color: #fff; border-bottom: 1px solid #aaa;} 
+  #masthead nav li {margin-left: 10px;}
+  #masthead nav ul a, #pageContent .actionBtn {margin-top: 7px; color: #fff; font-weight: 500; text-decoration: none; display: inline-block; padding: 8px 16px; border-radius: 12px;}
+  #pageContent .actionBtn {background: #ccc; color: #000; padding: 12px 20px; font-size: 120%;}
+  #masthead nav ul a:hover, #masthead nav ul a:focus, #pageContent .actionBtn:hover, #pageContent .actionBtn:focus {background: #fff; color: #000;}
+  #pageContent {padding: 30px 0; background: #2a2a2a; color: #fff; overflow: auto;}
+  #homeFeature {border: 7px solid #6b6b6b; border-radius: 50%; width: 375px; height: 375px; background: url(../i/maple-leaves-background.jpg) no-repeat center; background-size: cover;}
+  #navMenuTrigger {display: none; margin-top: 7px; color: #fff; text-decoration: none;}
+
+  /* tours */
+  #galleryHdr {text-align: center;}
+  #tourGallery {background: #ccc; overflow: auto; padding: 30px 0 50px;}
+  .tour {position: relative; top: 0; left: 0; border: 5px solid #fff; box-sizing: border-box; width: 277px; background-size: cover; min-height: 200px;}
+  .tour span {position: absolute; bottom: 0; width: 100%; padding: 5px 0; background: rgba(0,0,0,0.6); color: #fff; text-align: center;}
+  .tour em {font-size: 0px; width: 0; height: 0;}
+  #fallTour {background: url(../i/fall-tour.jpg) top left no-repeat;}
+  #winterTour {background: url(../i/winter-tour.jpg) top left no-repeat;}
+  #springTour {background: url(../i/spring-tour.jpg) center no-repeat;}
+  #summerTour {background: url(../i/summer-tour.jpg) center no-repeat;}
+  #forestTour {background: url(../i/forest-tour.jpg) center no-repeat;}
+  #mountainTour {background: url(../i/mountain-tour.jpg) center no-repeat;}
+  #islandTour {background: url(../i/island-tour.jpg) bottom center no-repeat;}
+  #streamTour {background: url(../i/stream-tour.jpg) center no-repeat;}
+
+  /* services */
+  #services {text-align: center; padding: 30px 0 50px;}
+  .service {text-decoration: none; background: #2a2a2a; color: #fff; border: 5px solid #2a2a2a; width: 170px; box-sizing: border-box; padding: 20px;}
+  .service .fas {display: block; height: 50px;}
+  .service:hover, .service:focus {background: #fff; color: #2a2a2a;}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .tour, .service {width: 31%; margin-bottom: 3%;}
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .tour, .service {margin-bottom: 2%;}
+  #pageContent > div.flex {display: block;}
+  #homeFeature {width: 300px; height: 300px; margin: 50px auto 20px;}
+  #navMenuTrigger {display: inline-block;}
+  header nav li {display: none;}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  #masthead h1 {font-size: 25px;}
+  .tour, .service {width: 50%;}
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    .tour, .service {width: 100%; display: block;}
+    
+}
+
+@media print {
+
+  body {font: 400 14pt/1.4 'Noto Serif', serif; color: #000;}
+  h2 {font: 400 20pt/1.4 'Noto Serif', serif;}
+  h3 {font: 400 17pt/1.4 'Noto Serif', serif;}
+  #masthead nav, .tour em {display: none;}
+  #masthead h1 {font-size: 24pt;}
+  footer {font-size: 11pt; margin-top: 30pt;}
+  #pageContent {margin: 30pt 0;}
+  .tour, .service {display: block; margin: 10pt 0;}
+  a {color: #000;}
+
+}

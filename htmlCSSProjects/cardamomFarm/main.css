@@ -1,0 +1,82 @@
+@media all {
+
+    header, footer, nav, aside, article, section {display: block;}
+    body {margin: 0; padding: 0;}
+    #masthead h1 {margin: 0; font: 700 38px/35px 'Economica', sans-serif;}
+    
+}
+
+
+@media screen {
+
+    body {font: 400 16px/1.3 'Noto Sans JP', sans-serif; color: #000;}
+    h2 {font: 300 35px/1 'Averia Serif Libre', cursive;} 
+    .container {width: 1040px; margin: 0 auto;}
+    .flex {display: flex;}
+    .wrap {flex-wrap: wrap;}
+    a:link {text-decoration: none;}
+
+  /* masthead */
+    
+    #masthead {background: url(i/barn-background.jpg) center 35%/cover no-repeat; height: 582px;}
+    #masthead nav ul {list-style: none; margin: 0; padding: 0; justify-content: center;}
+    #masthead nav li {margin: 0 15px;}
+    #masthead nav ul a {font: 700 16px/1 'Averia Serif Libre', cursive; color: #000;}
+    #masthead nav ul a:hover, #masthead nav ul a:focus {color: #980404;}
+    
+    h1 {text-align: center; padding: 20px 0;}
+    #logo {display: block; font: 400 30px/35px 'Economica', sans-serif;}
+    
+  /* Quote and Tour */    
+    
+    #tour div {box-sizing: border-box; justify-content: center; height: 376px; align-content: center;}
+    #tour h2 {color: #980404; margin: 0 0 50px; width: 100%; text-align: center;}
+    #tour a {display: block; padding: 15px 30px; border: 1px solid #980404; color: #980404;}
+    #tour a:hover, #pageContent a:focus {background-color: #980404; color: #fff;}
+    
+  /* fresh food */
+    #freshFood div {box-sizing: border-box; justify-content: center;}
+    #freshFood div h2 {width: 50%; text-align: center; margin: 0 0 20px;}
+    #freshFood div p {width: 34%; text-align: center; line-height: 1.8; padding: 0 80px; margin: 0 0 20px;}
+
+    hr {border: 7px solid #FC0;}
+ 
+}
+
+
+@media screen and (max-width: 1050px) {
+
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+
+}
+
+
+@media print {
+
+    
+}

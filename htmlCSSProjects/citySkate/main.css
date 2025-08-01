@@ -1,0 +1,99 @@
+@media all {
+	
+  header, main, article, section, aside, nav {display: block;}
+  body {margin: 0; padding: 0; font: .875rem/1.3 Roboto, sans-serif; overflow: auto;}
+  a:focus {outline: 2px dotted #000; outline-offset: 5px;}
+    
+}
+
+
+@media screen {
+
+    .container {width: 1020px; margin: 0 auto; box-sizing: border-box;}
+    .flex {display: flex;}
+    .wrap {flex-wrap: wrap;}
+    h1 {font: 300 40px/1.3 'Open Sans Condensed', sans-serif;}
+    h2 {font: 700 18px/1.3 'Open Sans Condensed', sans-serif;}
+    ul {margin: 0; padding: 0; list-style: none;}
+    ul li, li a {text-decoration: none;}
+    
+    #masthead a:link {text-decoration: none; color: #fff; font: 32px/1.3 'Righteous', cursive;}
+    #masthead ul {margin: 20px 30px 0 0; overflow: auto;}
+    #masthead ul li {float: right; margin: 0 10px 0 0;}
+    #logo {margin: 20px 20px 0;}
+ 
+    #masthead {position: relative; top: 0; left: 0; background: url(i/city-skate-hero.jpg) center no-repeat; background-size: cover; height: 567px; border-bottom: 5px solid orange; justify-content: space-between; overflow: auto;}
+    
+    
+/* BANNED FROM RIDING */  
+    #ban {margin: 120px 0;}
+    #ban h1,#ban h2 {text-align: center;}
+    
+    
+/* COLLAGE SECTION */
+    
+    #shop {position: relative;}
+    #topLeft {background: url(i/vintage-decks.jpg) center no-repeat; background-size: cover; height: 340px; flex-basis: 67%;}
+    #topRight {background: #000; height: 340px; flex-basis: 33%;}
+    #midLeft {background: url(i/skateboarder-sunset-silhouette.jpg) center no-repeat; background-size: cover; height: 504px; flex-basis: 34%;}
+    #midRight {background: url(i/skateboarder-daytime.jpg) center no-repeat; background-size: cover; height: 504px; flex-basis: 66%;}
+    #bot {background: url(i/skateboarder-blurred-motion.jpg) center no-repeat; background-size: cover; height: 539px; flex-basis: 100%;}
+    
+    .blkSq {width: 26%; text-align: center; padding: 100px 40px 50px; background: #000; color: #fff; font: 300 18px/2 'Open Sans Condensed', sans-serif;}
+    #vintage {position: absolute; right: 0;}
+    #vintage p {padding: 0 25px;}
+    #vintage a img {margin: 50px 0 80px;}
+    #rare {position: absolute; bottom: 250px;}
+    #rare p {padding: 0 25px;}
+    
+/* LONGBOARD SECTION */    
+    #longboard {border-top: 5px solid orange; border-bottom: 5px solid orange; justify-content: center; padding: 30px 0;}
+    #longboard div {flex-basis: 25%; margin: 0 10px;}
+    #longboard h2 {font: 32px/1.3 'Righteous', cursive; color: grey; flex-basis: 100%; text-align: center;}
+    #longboard h3 {font: 700 24px/1.3 'Open Sans Condensed', sans-serif; text-align: center;}
+  
+    .longBimg {display: block; height: 220px;}
+    #trk {background: url(i/trucks.jpg) center no-repeat; background-size: cover;}
+    #brg {background: url(i/bearings.jpg) center no-repeat; background-size: cover;}
+    #whl {background: url(i/wheels.jpg) center no-repeat; background-size: cover;}
+    
+    
+/* FOOTER */    
+    footer {background: grey; justify-content: space-around;}
+    footer ul li {font: 700 18px/1.3 'Open Sans Condensed', sans-serif; margin: 15px 0;}
+    footer ul li a:link {color: #000;}
+    footer p {font: 12px/1.3 'Roboto', sans-serif; margin: 10px;}
+    .socials {height: 50px; width: 50px; display: block; float: right;}
+    #instagram {background: url(i/social-media.png) 0px 0px;}
+}
+
+@media screen and (max-width: 1020px) {
+
+    .container {width: 100%;}
+    
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #masthead, footer {justify-content: center; flex-wrap: wrap;}
+    #masthead #logo {flex-basis: 100%; text-align: center;margin: 0;}
+    #longboard div {flex-basis: 85%;}
+    footer div {flex-basis: 100%; text-align: center;}
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+
+@media print {
+    
+    
+    nav, img {display: none;}
+    ul {list-style: none;}
+
+}
